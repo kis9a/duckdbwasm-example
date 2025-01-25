@@ -1,8 +1,7 @@
-import { h } from "preact";
 import { LocationProvider, Router, Route } from "preact-iso";
 import { Header } from "@/components/header";
 import Home from "@/pages/home";
-import About from "@/pages/about";
+import Exchangerate from "@/pages/exchangerate";
 
 export function App() {
   return (
@@ -12,7 +11,7 @@ export function App() {
       </div>
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/exchangerate" component={Exchangerate} />
       </Router>
     </LocationProvider>
   );

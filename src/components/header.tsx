@@ -9,7 +9,7 @@ export function Header() {
             <Link href="/">Home</Link>
           </li>
           <li class="nav-item">
-            <Link href="/about">About</Link>
+            <Link href="/exchangerate">Exchangerate</Link>
           </li>
         </ul>
       </div>
