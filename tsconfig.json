@@ -1,20 +1,37 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
     "strict": true,
-    "declaration": true,
-    "strictNullChecks": true,
-    "importHelpers": true,
-    "moduleResolution": "Bundler",
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
     "resolveJsonModule": true,
-    "stripInternal": true,
-    "newLine": "LF",
-    "types": [],
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": false,
+    "declaration": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": false,
+    "jsx": "preserve",
+    "jsxFactory": "preact.h",
+    "jsxFragmentFactory": "preact.Fragment",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"]
   },
-  "exclude": ["node_modules", "tests"]
+  "include": ["./src"],
+  "exclude": ["node_modules", "dist"],
+  "typeRoots": ["./src/types", "./node_modules/@types"]
 }

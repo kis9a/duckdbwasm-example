@@ -175,3 +175,17 @@
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
+
+  =======================================================================
+  
+  Original Software Information:
+  - Name: duckdb-wasm-parquet
+  - Version: 9834b67
+  - Source: https://github.com/voluntas/duckdb-wasm-parquet
+  - License: Apache License 2.0
+  
+  Changes made to the original software:
+  - Date: 2025-01-25
+  - Author: kis9a
+  
+  =======================================================================
